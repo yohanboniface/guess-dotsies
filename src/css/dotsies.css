@@ -1,0 +1,135 @@
+/* ***************** */
+/* Fonts declaration */
+/* ***************** */
+
+@font-face {
+    font-family: 'Dotsies';
+    src: url('../font/dotsies-webfont.eot');
+    src: url('../font/dotsies-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/dotsies-webfont.woff') format('woff'),
+         url('../font/dotsies-webfont.ttf') format('truetype'),
+         url('../font/dotsies-webfont.svg#DotsiesMedium') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DotsiesTrainingWheelsMedium';
+    src: url('../font/dotsies_training_wheels-webfont.eot');
+    src: url('../font/dotsies_training_wheels-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/dotsies_training_wheels-webfont.woff') format('woff'),
+         url('../font/dotsies_training_wheels-webfont.ttf') format('truetype'),
+         url('../font/dotsies_training_wheels-webfont.svg#DotsiesTrainingWheelsMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('../font/Chunkfive-webfont.eot');
+    src: url('../font/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Chunkfive-webfont.woff') format('woff'),
+         url('../font/Chunkfive-webfont.ttf') format('truetype'),
+         url('../font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSansCondensedLight';
+    src: url('../font/OpenSans-CondLight-webfont.eot');
+    src: url('../font/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('../font/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* ***************** */
+/* Generic Styles    */
+/* ***************** */
+* {
+    font-size: 30px;
+    text-align: center;
+    font-family: OpenSansCondensedLight;
+}
+
+/* ***************** */
+/* Structure    */
+/* ***************** */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#app_layout {
+    height: 100%;
+    width: 100%;
+}
+#action_pane {
+    width: 25%;
+}
+#footer {
+    height: 50px;
+}
+
+/* ***************** */
+/* App Styles    */
+/* ***************** */
+#guess_what {
+    font-family: Dotsies;
+    margin: 0;
+    padding: 0;
+}
+#guess_what:hover{
+    font-family: DotsiesTrainingWheelsMedium;
+}
+h1, h3 {
+    font-family: ChunkFiveRegular;
+}
+#action_pane > div, #action_pane > form {
+    text-align: right;
+    padding-right: 10px;
+}
+#action_pane textarea {
+    text-align: left;
+}
+h3 {
+    border-left: 8px solid #000;
+    text-align: left;
+    padding-left: 10px;
+    margin: 5px;
+}
+#header {
+    background-color: #000;
+    border: none;
+    border-left: 8px solid #e5673e;
+}
+#header h1 {
+    text-align: left;
+    color: #fff;
+}
+#footer {
+    font-size: 15px;
+}
+#footer ul {
+    padding: 0;
+    margin: 0;
+}
+#footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+#footer ul li +li:before {
+    content: "—";
+    padding: 0 10px;
+}
+#footer ul li a {
+    text-decoration: none;
+    color: #e5673e;
+}
