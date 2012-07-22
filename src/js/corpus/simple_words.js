@@ -10,7 +10,7 @@ define([], function(){
             'nine', 'ten', 'beat', 'beat', 'be', 'are', 'law', 'low', 'soap',
             'you', 'she', 'he', 'us', 'they', 'tea', 'me', 'my', 'it', 'sad',
             'mad', 'dad', 'kid', 'sun', 'son', 'been', 'or', 'and', 'but',
-            'ok', 'duck', 'man', 'boy', 'here', 'how'
+            'ok', 'duck', 'man', 'boy', 'here', 'how', 'lot'
         ],
     }
 ;

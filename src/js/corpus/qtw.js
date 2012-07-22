@@ -5,7 +5,7 @@ define([], function(){
         "elements": [
             't', 'w', 'q', 'what', 'two', 'coq', 'qat', 'souq','qwerty',
             'quote', 'wind', 'winter', 'twq', 'qwt', 'tqw', 'wqt', 'wtq',
-            'qtw', 'twitt'
+            'qtw', 'twitt', 'low', 'lot', 'how', 'hot', 'toy'
         ],
     }
 ;
