@@ -8,7 +8,9 @@ define([], function(){
             'Deep experience is never peaceful.',
             "Don't go through life, grow through life.",
             "Every man dies. Not every man really lives.",
-            'I took some time out for life.'
+            'I took some time out for life.',
+            'Where can I find toothpaste?',
+            'There is a melon on the table'
         ]
     }
 ;

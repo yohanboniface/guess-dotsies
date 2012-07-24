@@ -4,7 +4,9 @@ define([], function(){
         "lang": "en",
         "elements": [
             'reality', 'philosophy', 'happiness', 'shellfish','spinnaker',
-            'sailboat', 'flowers', 'moutain', 'wagon', 'water', 'yellow'],
+            'sailboat', 'flowers', 'moutain', 'wagon', 'water', 'yellow',
+            'welcome'
+        ],
     }
 ;
 });
